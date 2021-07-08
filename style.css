@@ -9,15 +9,18 @@ font-size: 50px;
 {  
 color: orangered;  
     }
-section{  
+.flexible-container{  
     display: flex;
+    margin-bottom: 150px;
         }
 .half-width{  
-    width: %;
+    width: 80px;
     padding-left: 2%;
 }
 .half-width img{
-   width: 50%}
+   width: 400px;
+}
+   
 .link-button{ 
     text-decoration: none;
    background-image: linear-gradient(rgb(255, 86, 7),tomato);
@@ -29,4 +32,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(pic/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
